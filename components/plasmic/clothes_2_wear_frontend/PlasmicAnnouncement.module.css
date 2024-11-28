@@ -1,0 +1,117 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 40px;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+}
+.sliderCarousel:global(.__wab_instance) {
+  width: 100%;
+  max-width: 100%;
+  flex-direction: column;
+  object-fit: cover;
+  height: 40px;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.freeBox__fiZgs {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 40px;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  background: #000000;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__rsXwQ {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  max-width: 100%;
+  min-width: 0;
+  flex-shrink: 0;
+  padding: 0px;
+}
+.svg___0O886 {
+  object-fit: cover;
+  max-width: 100%;
+  color: #ffffff;
+  margin-right: 14px;
+  height: 1em;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .svg___0O886 {
+    width: 14px;
+    flex-shrink: 0;
+  }
+}
+.text__mCkMq {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: #ffffff;
+  font-size: 12px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text__mCkMq {
+    font-size: 10px;
+  }
+}
+.freeBox__tdoYq {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 40px;
+  max-width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+  background: #000000;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__eNvoR {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 40px;
+  max-width: 100%;
+  min-width: 0;
+  flex-shrink: 0;
+  padding: 0px;
+}
+.svg__waBeh {
+  object-fit: cover;
+  max-width: 100%;
+  color: #ffffff;
+  margin-right: 14px;
+  height: 1em;
+}
+.text__rCKq5 {
+  position: relative;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  color: #ffffff;
+  font-size: 12px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .text__rCKq5 {
+    font-size: 12px;
+  }
+}
