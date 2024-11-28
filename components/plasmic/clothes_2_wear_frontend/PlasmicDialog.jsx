@@ -153,7 +153,13 @@ function PlasmicDialog__RenderFunc(props) {
       <DialogContent
         data-plasmic-name={"dialogContent"}
         data-plasmic-override={overrides.dialogContent}
-        className={classNames("__wab_instance", sty.dialogContent)}
+        className={classNames("__wab_instance", sty.dialogContent, {
+          [sty.dialogContentnoTrigger]: hasVariant(
+            $state,
+            "noTrigger",
+            "noTrigger"
+          )
+        })}
         themeResetClass={classNames(
           projectcss.root_reset,
           projectcss.plasmic_default_styles,
@@ -161,7 +167,15 @@ function PlasmicDialog__RenderFunc(props) {
           projectcss.plasmic_tokens
         )}
       >
-        <div className={classNames(projectcss.all, sty.freeBox__tSp5Z)}>
+        <div
+          className={classNames(projectcss.all, sty.freeBox__tSp5Z, {
+            [sty.freeBoxnoTrigger__tSp5ZidkI]: hasVariant(
+              $state,
+              "noTrigger",
+              "noTrigger"
+            )
+          })}
+        >
           <Fetcher
             data-plasmic-name={"dataFetcher"}
             data-plasmic-override={overrides.dataFetcher}
